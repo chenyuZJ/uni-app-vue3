@@ -1,0 +1,26 @@
+@oss: 'https://fs-public-service.oss-cn-hangzhou.aliyuncs.com/baiyun/alipay';
+@ossActivity: @oss + '/activity';
+
+@primaryColor: #00a179;
+@fontColor: #222;
+
+// 文本溢出省略
+.text-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+// 多行文本溢出省略
+.text-ellipsis-multi(@num: 2) {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: @num;
+  -webkit-box-orient: vertical;
+}
+
+// flex 布局
+.flex {
+  display: flex;
+}

@@ -1,0 +1,29 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}
+	],
+	"subPackages": [
+		{
+			"root": "testPackages",
+			"pages": [
+				{
+					"path": "test/index/index",
+					"style": {
+            "navigationBarTitleText": "测试分包"
+          }
+				}
+			]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
